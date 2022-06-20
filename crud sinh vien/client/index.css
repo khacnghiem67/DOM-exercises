@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgb(38, 233, 84);
+  --secondary: rgb(206, 233, 31);
+  --danger: rgb(233, 67, 38);
+
+  --margin: 16px;
+  --padding: 16px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 2rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* title */
+
+.wrapper__title {
+  padding: var(--padding);
+  background: var(--primary);
+  margin-bottom: var(--margin);
+}
+
+/* form */
+.wrapper__form {
+  margin-bottom: var(--margin);
+  padding: var(--padding);
+}
+
+.wrapper__form .form-item {
+  margin-bottom: var(--margin);
+}
+
+.wrapper__form .form-item .form-item__label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.wrapper__form .form-item .form-item__input {
+  width: 100%;
+  padding: 8px;
+}
+
+.wrapper__form .wrapper__form--actions button {
+  margin-right: var(--margin);
+}
+
+.wrapper__form .wrapper__form--actions .action-create {
+  background: var(--primary);
+}
+
+.wrapper__form .wrapper__form--actions .action-save {
+  background: var(--primary);
+}
+
+.wrapper__form .wrapper__form--actions .action-reset {
+  background: var(--secondary);
+}
+
+/* table */
+.wrapper__table {
+  padding: var(--padding);
+}
+
+.wrapper__table .btn-action--edit {
+  background: var(--secondary);
+}
+
+.wrapper__table .btn-action--delete {
+  background: var(--danger);
+}

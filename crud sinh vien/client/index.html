@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <title>CRUD Student</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="wrapper__title">CRUD Student</h1>
+
+      <div class="wrapper__form">
+        <form>
+          <div class="form-item">
+            <label for="stt" class="form-item__label">STT</label>
+            <input
+              type="text"
+              name="stt"
+              id="stt"
+              class="form-item__input"
+              disabled
+            />
+          </div>
+          <div class="form-item">
+            <label for="msv" class="form-item__label">Mã sinh viên</label>
+            <input type="text" name="msv" id="msv" class="form-item__input" />
+          </div>
+          <div class="form-item">
+            <label for="name" class="form-item__label">Họ và tên</label>
+            <input type="text" name="name" id="name" class="form-item__input" />
+          </div>
+          <div class="form-item">
+            <label for="class" class="form-item__label">Lớp</label>
+            <input
+              type="text"
+              name="class"
+              id="class"
+              class="form-item__input"
+            />
+          </div>
+        </form>
+
+        <div class="wrapper__form--actions">
+          <button class="action-create">Create</button>
+          <button class="action-save">Save</button>
+          <button class="action-reset">Reset</button>
+        </div>
+      </div>
+
+      <div class="wrapper__table">
+        <table></table>
+      </div>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

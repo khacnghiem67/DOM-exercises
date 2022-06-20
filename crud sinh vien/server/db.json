@@ -1,0 +1,16 @@
+{
+  "students": [
+    {
+      "msv": "191200222",
+      "name": "Bùi Đình Dự",
+      "class": "10A4",
+      "id": 1
+    },
+    {
+      "msv": "191200233",
+      "name": "Nguyen Quang Thuc",
+      "class": "TT5 - K60",
+      "id": 2
+    }
+  ]
+}
